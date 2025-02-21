@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="text">
+        Sketch It
+    </div>
+    <div id ="wrapper">
+        <div id ="bar">
+            <div class="text">CHOOSE GRID SIZE</div>
+            <div id="size">
+                <div class="sizewrap">
+                    <button class="button text" onclick="gridChange(16)">16 x 16</button>
+                    <button class="button text" onclick="gridChange(25)" >25 x 25</button>
+                    <button class="button text" onclick="gridChange(36)">36 x 36</button>
+                </div>
+                <div class="sizewrap">
+                    <button class="button text" onclick="gridChange(64)">64 x 64</button>
+                    <button class="button text" onclick="gridChange(81)">81 x 81</button>
+                    <button class="button text" onclick="gridChange(200)">200 x 200</button>
+                </div>
+            </div>
+        </div>
+        <div id ="board">
+
+        </div>
+        
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
